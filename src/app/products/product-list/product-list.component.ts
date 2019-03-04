@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./product-list.component.css']
 })
 export class ProductListComponent implements OnInit {
+  imagewidth:number=50;
+  imageMargin:number=2;
 
   constructor() { }
 
