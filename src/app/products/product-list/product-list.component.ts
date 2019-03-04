@@ -9,6 +9,7 @@ export class ProductListComponent implements OnInit {
   imagewidth:number=50;
   imageMargin:number=2;
   showImage=false;
+  listFilter='cart'
 
   constructor() { }
 
