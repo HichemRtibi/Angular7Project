@@ -7,8 +7,9 @@ import {Component} from '@angular/core';
     template:`
       <div>
         <h1>Acm product managment</h1>
+        <app-product-list></app-product-list>
       </div>
-      <app-product-list></app-product-list>
+     
       
     `
   }
