@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class ProductListComponent implements OnInit {
   imagewidth:number=50;
   imageMargin:number=2;
+  showImage=false;
 
   constructor() { }
 
@@ -65,5 +66,8 @@ pageTitle :string="productList"
       "starRating": 4.6,
       "imageUrl": "https://openclipart.org/image/300px/svg_to_png/120337/xbox-controller_01.png"
     }
-  ]
+  ];
+  toggleImage():void{
+    this.showImage=!this.showImage;
+  }
 }
