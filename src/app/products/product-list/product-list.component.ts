@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {Iproduct} from '../iproduct';
 
 @Component({
   selector: 'app-product-list',
@@ -16,7 +17,7 @@ export class ProductListComponent implements OnInit {
   ngOnInit() {
   }
 pageTitle :string="productList"
-  products:any[]=[
+  products:Iproduct[]=[
     {
       "productId": 1,
       "productName": "Leaf Rake",
