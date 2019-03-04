@@ -1,10 +1,14 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
 
-@Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
-})
+
+@Component(
+  {
+    selector:'pm-root',
+    template:`
+      <h1>Acm product managment</h1>
+    `
+  }
+)
 export class AppComponent {
-  pageTitle = 'Acme product Management';
+
 }
