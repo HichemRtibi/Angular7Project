@@ -5,7 +5,11 @@ import {Component} from '@angular/core';
   {
     selector:'pm-root',
     template:`
-      <h1>Acm product managment</h1>
+      <div>
+        <h1>Acm product managment</h1>
+      </div>
+      <app-product-list></app-product-list>
+      
     `
   }
 )

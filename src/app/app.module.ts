@@ -3,12 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { WelcomeComponent } from './home/welcome/welcome.component';
+import { ProductListComponent } from './products/product-list/product-list.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     WelcomeComponent,
+    ProductListComponent,
    
   ],
   imports: [
