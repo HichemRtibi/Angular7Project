@@ -15,6 +15,7 @@ export class ProductListComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    console.log("On init method")
   }
 pageTitle :string="productList"
   products:Iproduct[]=[

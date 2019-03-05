@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { WelcomeComponent } from './home/welcome/welcome.component';
 import { ProductListComponent } from './products/product-list/product-list.component';
 import {FormsModule} from '@angular/forms';
+import {ConvertToSpacePipe} from './shared/convert-to-space.pipe';
 
 
 @NgModule({
@@ -12,6 +13,7 @@ import {FormsModule} from '@angular/forms';
     AppComponent,
     WelcomeComponent,
     ProductListComponent,
+    ConvertToSpacePipe
    
   ],
   imports: [
